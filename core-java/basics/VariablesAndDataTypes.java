@@ -29,6 +29,7 @@ public class VariablesAndDataTypes {
         int fromDouble = (int) d;           // Explicit casting (narrowing)
         double fromInt = i;                 // Implicit casting (widening)
         System.out.println("Casting double to int: " + fromDouble);
+        System.out.println("Casting int to double: " + fromInt);
 
         // ---- var keyword (Java 10+) - type inference ----
         var autoType = "This is a String";  // Compiler infers the type
